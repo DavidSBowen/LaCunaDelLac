@@ -27,15 +27,15 @@ It is responsive to an extent and only serves to hold basic information and 3 if
 
 - Quandoo for La Cuna Del Lac
 
-- for reservations
+  - for reservations
 
-- [ ] YouTube for La Cuna Del Lac (NOT YET FUNCTIONAL)
+- - [ ] YouTube for La Cuna Del Lac (NOT YET FUNCTIONAL)
 
   - for YouTube functionality:
     
-      - [ ] Must have YouTube playlist for restaurant
+      - - [ ] Must have YouTube playlist for restaurant
     
-      - [ ] Must change [index.html](https://github.com/lessthanjake328/LaCunaDelLac/blob/master/index.html)
+      - - [ ] Must change [index.html](https://github.com/lessthanjake328/LaCunaDelLac/blob/master/index.html)
       
         - section: div class="youtube-wrap" (near the bottom of the page: line 105 as of writing this)
       
