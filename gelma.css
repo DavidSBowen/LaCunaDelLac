@@ -1,0 +1,301 @@
+/** {
+  border: 1px solid black;
+}*/
+
+/*box model fix*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Global */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #C6BBB3;
+  color: #0D324D;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 8vw;
+  font-family: cursive;
+  font-weight: 100;
+  width: auto;
+  white-space: nowrap;
+}
+
+h2 {
+  font-size: 5vw;
+  text-align: center;
+}
+
+/* Header Links */
+
+header {
+  margin: 0;
+}
+
+nav.header-links {
+  margin: 0;
+  padding: .5% 15%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+nav.header-links a {
+  border: 1px solid;
+  border-color: #0D324D;
+  background-color: #0D324D;
+  color: #C6BBB3;
+  padding: .75% 3%;
+  margin: 2% 1%;
+  border-radius: 10%;
+  display: inline-block;
+  max-height: 100%;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+nav.header-links a:hover {
+  border: 1px solid;
+  background-color: #C6BBB3;
+  color: #0D324D;
+  border-color: #0D324D;
+  transition: .1s ease-in-out;
+}
+
+/* Picture Frames */
+
+section.title-section {
+  margin: 0 auto;
+  text-align: center;
+  margin: 2% 10% 1.5% 10%;
+}
+
+section.secondarypictureframes {
+  margin: 5% auto 2.5% auto;
+  max-width: 300px;
+}
+
+/* Background Picture */
+
+.pictureframe img {
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+section.restaurantpicture {
+  margin: 0 10% 2.5%;
+}
+
+section.restaurantpicture img {
+  border-radius: 35%;
+  opacity: .9;
+  filter: sepia(15%);
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Reservation Table */
+
+section.quandoo {
+  text-align: center;
+  margin: 0 0 2.5% 0;
+}
+
+.reservationtable {
+  height: 500px;
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Text Section */
+
+.infotable li {
+  font-family: cursive;
+  list-style: none;
+  font-size: 16px;
+  padding: 3% 0;
+}
+
+.infotable ul {
+  padding: 5% 0;
+  margin: 0;
+}
+
+.infotable {
+  text-align: center;
+  margin: 0 auto;
+  white-space: nowrap;
+  background-color: rgba(247, 247, 247, .75);
+  border-radius: 1%;
+  width: 325px;
+}
+
+.large-width-info {
+  overflow: auto;
+}
+
+/* Facebook */
+
+section.facebook-section {
+  margin: 0 0 2.5% 0;
+}
+
+.facebooktable iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+/* YouTube */
+
+section.youtube-section {
+  margin: 0 20% 5%;
+}
+
+.youtube-section .iframe-window {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: .5%;
+  height: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; //<<--- THIS IS THE KEY
+  border: solid black 1px;
+  margin: 0 auto;
+}
+
+.youtube-section .iframe-window iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer */
+
+.footer-wrap {
+  text-align: center;
+  font-size: 0;
+}
+
+.footer-wrap p {
+  white-space: nowrap;
+  display: inline-block;
+  padding: 0 1%;
+  margin: 1% 0;
+  font-size: 2vw;
+}
+
+.footer-wrap-two {
+  border-top: 1px solid black;
+  margin: 0 10%;
+}
+
+/*.left-p {
+  border-left: 2px solid black;
+  border-right: 1px solid black;
+}*/
+
+.center-p {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+/*.right-p {
+  border-left: 1px solid black;
+  border-right: 2px solid black;
+}*/
+
+/* Responsive section */
+
+@media (min-width: 1050px) {
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .large-width-info {
+    width: 33%;
+    float: left;
+  }
+  .large-width-reservation {
+    width: 33%;
+    float: left;
+  }
+  .large-width-facebook {
+    width: 33%;
+    float: left;
+  }
+  .infotable {
+    height: 500px;
+    width: 325px;
+    margin: 0 auto;
+  }
+
+  .infotable li {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1049px) and (min-width: 800px) {
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .large-width-info {
+    width: 100%;
+    float: left;
+  }
+  .infotable {
+    width: auto;
+    margin: 0 15%;
+    height: auto;
+  }
+
+  .infotable li {
+    font-size: 24px;
+    padding: 1.5% 0;
+  }
+
+  .infotable ul {
+    padding: 0;
+  }
+
+  .large-width-reservation {
+    width: 50%;
+    float: left;
+  }
+  .large-width-facebook {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 800px) {
+  .footer-wrap p {
+    font-size: 16px;
+  }
+}

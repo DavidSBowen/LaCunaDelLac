@@ -1,0 +1,11 @@
+La Cuna Del Lac color scheme
+
+--- Dark ---
+#020202 black
+#0D324D Blue
+#33353F Dark grey
+
+--- Light ---
+#49D1B5 teal
+#C6BBB3 light grey
+#F4F1EF white
