@@ -1,4 +1,4 @@
-# LaCunaDelLac (view this raw)
+# LaCunaDelLac
 Website for LaCunaDelLac
 
 
@@ -13,7 +13,7 @@ Website for LaCunaDelLac
 ## 2017 - 12 - 03 -- (Sunday, December 3, 2017)
 
 
-###About:
+### About:
 
 
 This is a website written entirely in HTML and CSS.
@@ -21,7 +21,7 @@ This is a website written entirely in HTML and CSS.
 It is responsive to an extent and only serves to hold basic information and 3 iframes.
 
 
-####The iframes in the project are:
+#### The iframes in the project are:
 
 - Facebook for La Cuna Del Lac
 
@@ -29,29 +29,25 @@ It is responsive to an extent and only serves to hold basic information and 3 if
 
 - for reservations
 
-**FIX START**
-
-- YouTube for La Cuna Del Lac (NOT YET FUNCTIONAL)
+- [ ] YouTube for La Cuna Del Lac (NOT YET FUNCTIONAL)
 
   - for YouTube functionality:
     
-      - Must have YouTube playlist for restaurant
+      - [ ] Must have YouTube playlist for restaurant
     
-      - Must change index.html
+      - [ ] Must change [index.html](https://github.com/lessthanjake328/LaCunaDelLac/blob/master/index.html)
       
-        - section: div class="youtube-wrap"
+        - section: div class="youtube-wrap" (near the bottom of the page: line 105 as of writing this)
       
         - change: iframe src="https://..."
       
         - change to: URL for YouTube playlist for restaurant page when available
 
-**FIX END**
-
 
 ---
 
 
-###Contents:
+### Contents:
 
 - index.html
 
@@ -62,24 +58,3 @@ It is responsive to an extent and only serves to hold basic information and 3 if
 - colorscheme.txt
 
 
-===
-
-
-
-
-
-
-
-***
-***
-
-
-                              ::::::::::::::::::::::::::::::::::::
-                              ::Formatting guide for readability::
-                              ::::::::::::::::::::::::::::::::::::
-
-
-
-
-***
-***
