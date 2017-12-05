@@ -17,12 +17,12 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #C6BBB3;
-  color: #0D324D;
+  background-color: #0D324D;
+  color: #C6BBB3;
 }
 
 a {
-  color: blue;
+  color: white;
 }
 
 h1, h2 {
@@ -55,9 +55,9 @@ nav.header-links {
 
 nav.header-links a {
   border: 1px solid;
-  border-color: #0D324D;
-  background-color: #0D324D;
-  color: #C6BBB3;
+  border-color: #C6BBB3;
+  background-color: #C6BBB3;
+  color: #0D324D;
   padding: .75% 3%;
   margin: 2% 1%;
   border-radius: 10%;
@@ -69,9 +69,9 @@ nav.header-links a {
 
 nav.header-links a:hover {
   border: 1px solid;
-  background-color: #C6BBB3;
-  color: #0D324D;
-  border-color: #0D324D;
+  background-color: #0D324D;
+  color: #C6BBB3;
+  border-color: #C6BBB3;
   transition: .1s ease-in-out;
 }
 
@@ -131,6 +131,7 @@ section.quandoo {
   list-style: none;
   font-size: 16px;
   padding: 3% 0;
+  color: #0D324D;
 }
 
 .infotable ul {
@@ -146,6 +147,7 @@ section.quandoo {
   border-radius: 1%;
   width: 325px;
 }
+
 
 .large-width-info {
   overflow: auto;
