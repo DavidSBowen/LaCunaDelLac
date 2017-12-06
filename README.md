@@ -25,9 +25,6 @@ From 7:00 - 18:59, the page uses its light theme.  From 19:00 - 6:59, the page u
 - Updated index.html to reflect additional css and js files
 
 
----
-
-
 ### Contents:
 
 - index.html
@@ -45,7 +42,6 @@ From 7:00 - 18:59, the page uses its light theme.  From 19:00 - 6:59, the page u
 
 ---
 ---
-
 
 
 ## 2017 - 12 - 03 -- (Sunday, December 3, 2017)
@@ -80,9 +76,6 @@ It is responsive to an extent and only serves to hold basic information and 3 if
         - change: iframe src="https://..."
 
         - change to: URL for YouTube playlist for restaurant page when available
-
-
----
 
 
 ### Contents:
