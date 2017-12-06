@@ -10,7 +10,6 @@
     function stylesheetChange() {
       var d = new Date(),
         hours = d.getHours(),
-        // hours = 14,
         csslight = document.getElementById('css_light'),
         cssdark = document.getElementById('css_dark');
 
